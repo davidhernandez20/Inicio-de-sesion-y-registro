@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    max-height: 100vh;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eaebfe;
+    display: flex;
+}
+
+.imagen-fondo{
+    height: 680px;
+    position: absolute;
+    left: 20%;
+}
+
+.container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 60px;
+}
+
+.titulo-cuenta{
+    text-align: center;
+
+}
+
+.imagen-contraseña{
+    width: 15px;
+    height: 18px;
+    position: absolute;
+    top: 30.5%;
+    left: 53%;
+    background-color: aquamarine;
+}
