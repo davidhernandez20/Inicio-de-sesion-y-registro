@@ -27,14 +27,31 @@ body{
 
 .titulo-cuenta{
     text-align: center;
-
+    font-size: 30px;
 }
 
 .imagen-contraseña{
-    width: 15px;
-    height: 18px;
+    width: 25px;
+    height: 30px;
     position: absolute;
     top: 30.5%;
     left: 53%;
     background-color: aquamarine;
+}
+
+.usuario{
+    background-color: #c2c4f4;
+    border-radius: 40px;
+    border-color: transparent;
+    outline: none;
+    width: 50%;
+    height: 70px;
+    margin-left: 200px;
+
+}
+
+.usuario::placeholder{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
 }
