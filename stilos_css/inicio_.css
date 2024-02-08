@@ -22,7 +22,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-left: 60px;
 }
 
 .titulo-cuenta{
@@ -31,12 +30,11 @@ body{
 }
 
 .imagen-contraseña{
-    width: 25px;
+    width: 29px;
     height: 30px;
     position: absolute;
-    top: 30.5%;
-    left: 53%;
-    background-color: aquamarine;
+    top: 38.5%;
+    left: 35%;
 }
 
 .usuario{
@@ -47,11 +45,39 @@ body{
     width: 50%;
     height: 70px;
     margin-left: 200px;
-
+    cursor: text;
 }
 
 .usuario::placeholder{
     color: white;
     padding: 20px;
     font-size: 20px;
+}
+
+button{
+    background-color: #694ae6;
+    border-radius: 40px;
+    border-color: transparent;
+    outline: none;
+    width: 50%;
+    height: 70px;
+    margin-left: 200px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.8em 1.5em;
+}
+
+.inferiores{
+    display: flex;
+    font-size: 20px;
+}
+
+.check{
+    margin-left: 170px;
+}
+
+.inferiores a{
+    margin-left: 130px;
 }
