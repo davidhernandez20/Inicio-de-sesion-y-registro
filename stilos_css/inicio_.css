@@ -1,83 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
-*{
-    font-family: 'Quicksand', sans-serif;
-    max-height: 100vh;
-    box-sizing: border-box;
+* {
+  font-family: "Quicksand", sans-serif;
+  max-height: 100vh;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #eaebfe;
-    display: flex;
+body {
+  background-color: #eaebfe;
+  display: flex;
 }
 
-.imagen-fondo{
-    height: 680px;
+.imagen-fondo {
+  height: 680px;
+  position: absolute;
+  left: 20%;
+}
+
+.container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.titulo-cuenta {
+  text-align: center;
+  font-size: 30px;
+  margin-left: 185px;
+}
+
+.imagen-contraseña {
+  width: 29px;
+  height: 30px;
+  position: absolute;
+  top: 38.5%;
+  left: 38%;
+}
+
+.usuario {
+  background-color: #c2c4f4;
+  border-radius: 40px;
+  border-color: transparent;
+  outline: none;
+  width: 70%;
+  height: 70px;
+  margin-left: 200px;
+  cursor: text;
+}
+
+.usuario::placeholder {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+button {
+  background-color: #694ae6;
+  border-radius: 40px;
+  border-color: transparent;
+  outline: none;
+  width: 70%;
+  height: 70px;
+  margin-left: 200px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.8em 1.5em;
+}
+
+.inferiores {
+  display: flex;
+  font-size: 20px;
+}
+
+.check {
+  margin-left: 200px;
+}
+
+.inferiores a {
+  margin-left: 130px;
+}
+
+.o-ingresa-con {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  margin-left: 185px;
+
+
+  &::before,
+  &::after {
+    content: "";
     position: absolute;
-    left: 20%;
+    top: 50%;
+    height: 1px;
+    width: 25%;
+    background-color: #000;
+  }
+
+  &::before {
+    left: 10%;
+  }
+
+  &::after {
+    right: 10%;
+  }
 }
 
-.container{
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
 
-.titulo-cuenta{
-    text-align: center;
-    font-size: 30px;
-}
-
-.imagen-contraseña{
-    width: 29px;
-    height: 30px;
-    position: absolute;
-    top: 38.5%;
-    left: 35%;
-}
-
-.usuario{
-    background-color: #c2c4f4;
-    border-radius: 40px;
-    border-color: transparent;
-    outline: none;
-    width: 50%;
-    height: 70px;
-    margin-left: 200px;
-    cursor: text;
-}
-
-.usuario::placeholder{
-    color: white;
-    padding: 20px;
-    font-size: 20px;
-}
-
-button{
-    background-color: #694ae6;
-    border-radius: 40px;
-    border-color: transparent;
-    outline: none;
-    width: 50%;
-    height: 70px;
-    margin-left: 200px;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 0.8em 1.5em;
-}
-
-.inferiores{
-    display: flex;
-    font-size: 20px;
-}
-
-.check{
-    margin-left: 170px;
-}
-
-.inferiores a{
-    margin-left: 130px;
+.botones_inferiores img{
+    width: 50px;
+    margin: 10px;
+    position: relative;
+    top: 100%;
+    right: 125%;
 }
