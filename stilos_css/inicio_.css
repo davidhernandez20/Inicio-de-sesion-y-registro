@@ -47,13 +47,35 @@ body {
   height: 70px;
   margin-left: 200px;
   cursor: text;
+  z-index: 999;
 }
+
+.usuario_dos{
+  background-color: #c2c4f4;
+  border-radius: 40px;
+  border-color: transparent;
+  outline: none;
+  width: 70%;
+  height: 70px;
+  margin-left: 200px;
+  cursor: text;
+  z-index: 999;
+}
+
+
 
 .usuario::placeholder {
   color: white;
   padding: 20px;
   font-size: 20px;
 }
+
+.usuario_dos::placeholder {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
 
 button {
   background-color: #694ae6;
@@ -68,6 +90,7 @@ button {
   font-weight: bold;
   cursor: pointer;
   padding: 0.8em 1.5em;
+  z-index: 999;
 }
 
 .inferiores {
@@ -80,6 +103,7 @@ button {
 }
 
 .inferiores a {
+  z-index: 999;
   margin-left: 130px;
 }
 
@@ -118,4 +142,5 @@ button {
     position: relative;
     top: 100%;
     right: 125%;
+    z-index: 999;
 }
