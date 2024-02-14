@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+* {
+  font-family: "Quicksand", sans-serif;
+  max-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+body {
+    background-color: #eaebfe;
+
+}
+
+.contenedor_form{
+    border-radius: 40px 0px 0px 40px;
+    background-color: #fff;
+    width: 350px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 10px;
+    height: 500px;
+}
+
+.formulario input{
+    
+}
