@@ -1,21 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 * {
-  font-family: "Quicksand", sans-serif;
-  max-height: 100vh;
-  box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    max-height: 100vh;
+    box-sizing: border-box;
 }
-
 
 body {
     background-color: #eaebfe;
 
 }
 
+.atras{
+    position: relative;
+    top: 36px;
+    left: 20px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
 .contenedor_form{
     border-radius: 40px 0px 0px 40px;
     background-color: #fff;
-    width: 350px;
+    width: 400px;
+    position: relative;
+    left: 400px;
+    top: 70px;
+    height: 570px;
+
 }
 
 .formulario{
@@ -27,5 +45,83 @@ body {
 }
 
 .formulario input{
-    
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: #c2c4f4;
+    height: 45px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+
+}
+
+.formulario input::placeholder{
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.formulario button {
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: #694ae6;
+    color: #fff;
+    font-weight: bold;
+    width: 250px;
+    height: 45px;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-size: 20px;
+}
+
+.espam{
+    position: relative;
+    top: 60px;
+    left: 135px;
+}
+
+.espam::before,
+.espam::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100px; /* Ancho de las líneas */
+    height: 1px; /* Grosor de las líneas */
+    background-color: black; /* Color de las líneas */
+}
+
+.espam::before {
+    left: -120px; /* Distancia de la línea izquierda */
+}
+
+.espam::after {
+    right: 10px; /* Distancia de la línea derecha */
+}
+
+.btn-inferiores img{
+    width: 40px;
+    position: relative;
+    top: -60px;
+    left: 120px;
+}
+
+.cuaderno{
+    border-radius: 0px 40px 40px 0px;
+    background-color: #694ae6;
+    width: 400px;
+    position: relative;
+    left: 800px;
+    top: -500px;
+    height: 570px;
+}
+
+.cuaderno-img{
+    position: relative;
+    top: 100px;
+    left: -50px;
+    width: 500px;
 }
