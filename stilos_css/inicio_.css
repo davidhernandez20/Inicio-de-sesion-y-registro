@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
+/* SE COLOCAN ATRIBUTOS A TODA LA PAGINA CON EL SELECTOR UNIERSAL */
+
 * {
   font-family: "Quicksand", sans-serif;
   max-height: 100vh;
@@ -144,3 +146,11 @@ button {
     right: 125%;
     z-index: 999;
 }
+
+.ir{
+  position: relative;
+  top: 650px;
+  left: -450px;
+  text-decoration: none;
+}
+
